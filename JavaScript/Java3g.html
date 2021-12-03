@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <p id="para1"> Some text </p>
+    <p id="para2"> Some text </p>
+    <p id="para3"> Some text </p>
+    <p id="para4"> Some text </p>
+    <p id="para5"> Some text </p>
+<button onclick = "changeStyle()"> Hit submit if you want to change the text
+</button>
+</body>
+<script>
+    function changeStyle(){
+    var paragraph= document.getElementsByTagName("p");
+    var changepar = paragraph[0].style.fontStyle = "italic";
+    var changepar = paragraph[1].style.fontStyle = "italic";
+    var changepar = paragraph[2].style.fontStyle = "italic";
+    var changepar = paragraph[3].style.fontStyle = "italic";
+    var changepar = paragraph[4].style.fontStyle = "italic";
+}
+</script>
+</html>

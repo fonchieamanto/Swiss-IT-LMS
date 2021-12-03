@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <p class="para"> Old Text 1</p>
+<p class="para"> Old Text 2</p>
+<p class = "para"> </p>
+<button onclick= "changeStyle()"> Hit Submit button </button>
+</body>
+<script>
+    function changeStyle(){
+var paragraph= document.getElementsByClassName("para");
+var first = paragraph[0].innerHTML;
+var second = paragraph[1].innerHTML ;
+var addthem = paragraph[2].innerHTML = first + second;
+}
+</script>
+</html>
